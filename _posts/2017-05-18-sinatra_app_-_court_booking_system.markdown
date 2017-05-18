@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Sinatra App - Court Booking System
-date:   2017-05-18 21:05:23 +0000
+date:   2017-05-18 17:05:24 -0400
 ---
 
 I have finally finished my sinatra app project and the process was definitely more drawn out than I expected it to be.
