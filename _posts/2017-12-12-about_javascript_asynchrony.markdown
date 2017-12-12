@@ -2,6 +2,7 @@
 layout: post
 title:  "About javascript asynchrony"
 date:   2017-12-12 12:12:12 +0000
+permalink:  about_javascript_asynchrony
 ---
 
 Asynchrony is an important concept in javascript which allows single-threaded operations to behave more efficiently when dealing with code that takes longer to complete. Any code that is run on an event as opposed to running in order of the lines is asynchronous.
@@ -15,7 +16,7 @@ A concept in JS used to deal with asynchronous function is a callback. A callbac
 In the example below, when the ajax call is performed, the code returns returns immediately and runs the console.log("hi") lines below. When the ajax call provides a response, the callback fires and "ajax complete!" is printed before continuing to execute any remaining console.log("hi") lines.
 
 
-Pseudo-code example of a callback
+Pseudo-code example of a callback:
 ```
 function callback(resp) {
 	console.log("ajax complete!")
@@ -86,5 +87,6 @@ $.when( ajax("url.1") , ajax("url.2").done( (cb1, cb2) => {
 
 
 
-reference:
-https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch1.md
+Reference:
+
+[https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch1.md]

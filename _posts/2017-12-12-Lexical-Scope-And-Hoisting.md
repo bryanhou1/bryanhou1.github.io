@@ -2,11 +2,12 @@
 layout: post
 title:  "Lexical Scoping and Hoisting"
 date:   2017-12-12 12:12:12 +0000
+permalink:  Lexical_Scoping_and_Hoisting
 ---
 
 This is a review of lexical scoping and hoisting for myself as I continue to work with javascript and I hope it will prove to be useful for others as well.
 
-##Lexical Scope
+# Lexical Scope
 
 Lexical scope is a way of resolving variable scoping and it is how scoping works in javascript. 
 
@@ -82,7 +83,7 @@ layer1(a); //=> "layer 2 var"
 
 In examples 1.1 to 1.3 we can see lexical scoping working. All variables that declared in the parent functions and globally are accessible. When there are variables of the same name, the most recent one is queried. In our example, the variable will be first looked up in layer 2, then layer 1, then within the global scope. Example 1.4 demonstrates that the function parameters belong to the same layer as the function block. It also demonstrates how variables with the same name in a parent level can be accessed through parameter passing.
 
-##Hoisting
+# Hoisting
 
 In javascript, at the compilation stage, certain portions of the code is hoisted to the top of the queue and compiled first before others.
 
@@ -106,7 +107,7 @@ var hello = 5;
 
 Similarly, functional statements aren't hoisted but functional expressions are.
 
-Functional Statement:
+**Functional Statement:**
 ```
 //actual code
 func();
@@ -120,7 +121,7 @@ func = () => alert("hi");
 
 ```
 
-Functional Expression:
+**Functional Expression:**
 ```
 //actual code
 func();
