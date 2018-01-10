@@ -5,7 +5,7 @@ date:   2018-01-10 16:12:12 -0500
 permalink:  React_Redux_Project
 ---
 
-#React-Redux Notes App + Rails 5 API Backend + JWT Authentication
+# React-Redux Notes App + Rails 5 API Backend + JWT Authentication
 
 I built a [notes app](https://obscure-garden-84871.herokuapp.com) with react redux for my final project.
 
@@ -20,7 +20,7 @@ On the front end side, [axios](https://github.com/axios/axios) and [thunk](https
 
 Although the project is functional, there is still alot of features that can be added to make it more refined.
 
-###Possible future features:
+### Possible future features:
 1. key binding
 2. autosave
 3. batch save
@@ -29,14 +29,14 @@ Although the project is functional, there is still alot of features that can be 
 6. authorization for different user groups
 
 
-###Things to keep in mind for building future react-redux apps:
+### Things to keep in mind for building future react-redux apps:
 1. Put more things into state. Still have too much logic on components and reducer.
 2. Make components small and build them to be fairly shallow, because passing props deep is very hasslesome. 
 3. As usual, plan ahead.
 
 
 
-##Notes api code structure
+## Notes api code structure
 Note: only relevant files shown
 ```
 notes-api
@@ -157,11 +157,10 @@ notes-client
 
 ```
 
-
-##Live Demo
+## Live Demo
 Click [here](https://obscure-garden-84871.herokuapp.com) to see the live demo.
 
-##Additional Resources
+## Additional Resources
 
 
 

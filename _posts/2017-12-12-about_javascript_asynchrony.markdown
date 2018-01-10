@@ -89,4 +89,4 @@ $.when( ajax("url.1") , ajax("url.2").done( (cb1, cb2) => {
 
 Reference:
 
-[https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch1.md]
+(You Don't Know Js Chapter 1)[https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch1.md]
