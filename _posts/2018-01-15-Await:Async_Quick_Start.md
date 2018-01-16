@@ -85,7 +85,7 @@ const makeRequest = async () => {
 }
 ```
 
-Things to keep in mind: 
+## Things to keep in mind: 
 1. Async/await are built on promises, and are non-blocking
 2. You can only use await within an async function.
 
