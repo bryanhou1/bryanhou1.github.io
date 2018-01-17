@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Functional CSS"
-date:   2018-01-16 19:58:14 -0500
-permalink:  Functional_CSS
+title:      "Functional CSS"
+date:       2018-01-16 19:58:14 -0500
+permalink:  functional_css
 ---
+
+
 While working on my react-redux project, I figured I needed some sort of front end framework to beautify my pages so I instinctively went with bootstrap as it is easy to get started and has many many examples to go off of. I knew bootstrap at one point in the past but I was a hard time remembering how to customize using the framework. I didn't want to dwell too much on the subject at the time and just built out my own custom css and overwrote when needed. It is definitely much quicker to just write my own css for small scale project than taking the time to relearn bootstrap, but it also defeats the purpose of using the framework. while writing my own css, I also realized I didn't really know how to organize my selectors and which selectors to use. My solution worked but it was definitely not ideal for maintenance and debugging or just good code, for that matter. I revisited it to come up with a better solution and I found a solution that I am sold on: functional css(atomic css).
 
 ## What is functional CSS
