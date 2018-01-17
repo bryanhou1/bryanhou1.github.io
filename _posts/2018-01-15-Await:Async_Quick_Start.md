@@ -2,7 +2,7 @@
 layout: post
 title:  "Await/Async Quick Start"
 date:   2018-01-15 14:11:14 -0500
-permalink:  Await:Async_Quick_Start
+permalink:  Await_Async_Quick_Start
 ---
 
 While working on a code challenge recently, I was faced with a task I haven't encountered before. Part of the challenge requires doing multiple ajax requests to fetch information. However, prior to the first request you do not know how many requests are required.
@@ -90,7 +90,7 @@ const makeRequest = async () => {
 2. You can only use await within an async function.
 
 
-More reading:
-(Understand promises before you start using async/await)[https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8]
-(JavaScript loops — how to handle async/await)[https://blog.lavrton.com/javascript-loops-how-to-handle-async-await-6252dd3c795]
-(6 Reasons Why JavaScript’s Async/Await Blows Promises Away (Tutorial))[https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9]
+## More reading:
+* [Understand promises before you start using async/await](https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8)
+* [JavaScript loops — how to handle async/await](https://blog.lavrton.com/javascript-loops-how-to-handle-async-await-6252dd3c795)
+* [6 Reasons Why JavaScript’s Async/Await Blows Promises Away (Tutorial)](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
